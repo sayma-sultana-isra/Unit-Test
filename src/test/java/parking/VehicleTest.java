@@ -53,7 +53,7 @@ public class VehicleTest {
     }
 
     @Test
-    void vehicleToStringShouldContainVehicleId() {
+    void vehicleToStringShouldReturnExpectedFormat() {
         Wallet wallet = new Wallet(100.0);
         Vehicle vehicle = new Vehicle(101, VehicleType.CAR, wallet);
 
